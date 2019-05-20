@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:700|Overpass:300,400&display=swap');
+
+
+
+h1 {
+  color:#ce796b;
+  font-family: 'Chivo', sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+}
+
+h4 {
+  color: light-grey;
+}
+
+body {
+  color: #4e3d42;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  color: #ecc8af;
+  display: inline-block;
+  padding: 10px;
+}
+
+li:hover {
+  color: #6094a0;
+}
+
+.Profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+button {
+  opacity: 0.7;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin: 5px;
+  border: 1px solid #bbb;
+  overflow: visible;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .2), 0 2px 2px 0px rgba(0, 0, 0, .3), 0 1px 0 rgba(255, 255, 255, .2) inset;
+}
+
+button:hover {
+  background-color: #bad4db;
+}
+
+/*.flowers {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    opacity: 0.7;
+}*/
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.main {
+  background: white;
+  box-shadow: 2px 1px 10px rgba(50,50,50,0.3);
+  padding: 30px;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+
+.links {
+  background: white;
+  box-shadow: 2px 1px 15px rgba(50,50,50,0.4);
+  padding: 30px;
+  border-radius: 3px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
